@@ -1,0 +1,22 @@
+ 
+      .input-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+
+input[type=radio]:hover + label>img {
+
+cursor: pointer;
+
+}
+
+
+input[type=radio]:checked + label>img {
+  background-image: url('../images/selected_seat_img.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
