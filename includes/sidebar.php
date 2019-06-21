@@ -115,7 +115,7 @@
                          
                           <div id="seat"></div>
 
-                            <input type="hidden" name="user_id" value="1">
+                            <input type="hidden" name="user_id" value="3">
                             <input type="hidden" name="time" value="<?php echo  $bus_row["departureTime"];  ?>">
                  <!-- <input type="hidden" name="price" value="<?php //echo $price_row["price"]; ?>"> -->
 
@@ -170,9 +170,9 @@
                      success:function(data){
 
                       alert(data);
-                       if (data == '') {
-                      setTimeout('window.location.href = "ticket.php"; ', 2000);
-                    }
+                      
+                    window.location.href = "ticket.php";
+                    
                      }
 
                    });
